@@ -20,9 +20,9 @@ const initialModels = [
 ];
 const App = () => {
     return (
-        <>
+        <div className="window">
             <Model models={initialModels}/>
-        </>
+        </div>
     )
 }
 export  default App;

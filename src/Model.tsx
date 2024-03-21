@@ -83,9 +83,9 @@ const Model: React.FC<ModelProps> = ({models}) => {
     };
 
     return (
-        <div>
+        <div className="modelList">
             {modelData.map((model) => (
-                <div key={model.id}>
+                <div className="modelItem" key={model.id}>
                     <ModelEditor
                         model={model}
                         onUpdateParam={(paramId, value) =>
